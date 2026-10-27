@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog da Turma</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>Blog da Turma</h1>
+    <p>Noticias,projetos e ideias dos estudantes</p>
+
+    <nav>
+        <a href="#postagens">postagens</a>
+        <a href="#agenda">agenda</a>
+        <a href="#contato">contato</a>
+    </nav>
+    <hr>
+    <h2 id="postagens">postagens</h2>
+
+    <h3>Feira de ciencias</h3>
+    <p>A turma esta preparando esperiencias e projetos para a feira de ciencias da escola</p>
+
+    <h3>Clube de leitura</h3>
+    <p>Os estudantes estao compartilhando livros e comentando suas historias favoritas</p>
+
+    <h3>Robotica</h3>
+    <p>O grupo de robotica esta desenvolvendo um sistea atraves da inteligencia e criatividade</p>
+    <hr>
+    <h2 id="agenda">agenda</h2>
+    <table border="1">
+        <tr>
+            <th>Data</th>
+            <th>Evento</th>
+            <th>Local</th>
+        </tr>
+        <tr>
+            <td>10/05</td>
+            <td>Feira de ciencias</td>
+            <td>patio da escola</td>
+        </tr>
+        <tr>
+            <td>18/05</td>
+            <td>Clube de leitura</td>
+            <td>biblioteca</td>
+        </tr>
+    </table>
+    <h2 id="contato">contato</h2>
+    <form action="https://httpbin.org/post" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <Br></Br>
+
+        <label for="assunto">Assunto</label>
+        <select id="assunto" name="assunto">
+            <option>Sugestao</option>
+            <option>Duvida</option>
+            <option>Elogio</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Enviar mensagem</button>
+
+    </form>
+</body>

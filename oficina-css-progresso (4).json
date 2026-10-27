@@ -1,0 +1,27 @@
+{
+  "versao": 3,
+  "exportadoEm": "2026-10-27T19:50:16.995Z",
+  "estado": {
+    "current": 0,
+    "completed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "drafts": {
+      "0": "h1{\ncolor: blue;\n}\n\np{\n color: #334155; #1f2937\n}",
+      "1": "body{\nbackground-color: #fef3c7\n}\nbody{\ncolor: #1f2937\n}",
+      "2": "h1{\ntext-align: center\n}\nh1{\nfont-size: 32px\n}\np{\ntext-align: center\n}",
+      "3": ".aviso{\npadding: 16px\n}\n.aviso{\nborder: 2px solid #2563eb\n}\n.aviso{\nbackground-color: #eff6ff\n}",
+      "4": "ul{\n display: flex\n}\nul{\n list-style: none\n}\na{\n text-decoration: none\n}",
+      "5": "table{\n width: 100%\n}\nth,td{\nth, td { border: 1px solid #94a3b8; }\n}\nth{\nbackground-color: #bfdbfe\n}",
+      "6": "form{\n padding: 16px\n}\nform{\nbackground: #f1f5f9\n}\nform{\nborder-radius: 10px\n}\ninput{\nwidth: 100%\n}",
+      "7": ".card{\n max-width: 360px\n}\n.card{\nmargin: 20px auto\n}\n.card{\nborder-radius: 12px\n}\n.card{\n box-shadow: 0 4px 12px #0f172a18\n}"
+    }
+  }
+}
